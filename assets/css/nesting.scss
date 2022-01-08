@@ -1,0 +1,17 @@
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: $primary-color;
+
+    a{
+      color: $primary-text;
+      font-size: 20px;
+      text-decoration: none;
+      display: flex;
+      justify-content: start;
+    }
+    div{
+      display: flex;
+      justify-content: space-around;
+    }
+}

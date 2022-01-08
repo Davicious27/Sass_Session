@@ -1,0 +1,76 @@
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+nav a {
+  color: #dfdbdb;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+}
+nav div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-home {
+  font-size: 35px;
+  font-color: white;
+}
+
+.sm-container {
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.md-container {
+  height: 200px;
+  width: 300px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.lg-container {
+  height: 300px;
+  width: 400px;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.button-cancel, .button-confirm, .button-save {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button-save {
+  background-color: green;
+}
+
+.button-confirm {
+  background-color: yellow;
+}
+
+.button-cancel {
+  background-color: red;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

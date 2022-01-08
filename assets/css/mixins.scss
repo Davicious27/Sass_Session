@@ -1,0 +1,52 @@
+@mixin container ($height, $width, $bg-color){
+    height: $height;
+    width: $width;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin titles ($font-size, $font-color){
+    font-size: $font-size;
+    font-color:$font-color;
+}
+
+.title-home{
+    @include titles($lg, white)
+}
+
+.sm-container{
+    @include container(100px, 200px, blue);
+    border-radius: $sm;
+}
+
+.md-container{
+    @include container(200px, 300px, green);
+    border-radius: $md;
+}
+
+.lg-container{
+    @include container(300px, 400px, purple);
+    border-radius: $lg;
+}
+
+%button-p{
+        height: 50px;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+}
+
+.button-save{
+    @extend %button-p;
+    background-color: green;
+}
+.button-confirm{
+    @extend %button-p;
+    background-color: yellow;
+}
+.button-cancel{
+    @extend %button-p;
+    background-color: red;
+}
